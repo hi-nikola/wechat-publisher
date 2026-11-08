@@ -1,0 +1,80 @@
+/* Append to the COMPLETE upstream Lapis theme, before CSS inlining. */
+#wenyan {
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 8px;
+  margin: 0;
+  overflow: visible;
+  text-indent: 0;
+  letter-spacing: 0;
+}
+#wenyan p, #wenyan li, #wenyan blockquote,
+#wenyan h1, #wenyan h2, #wenyan h3, #wenyan h4, #wenyan h5, #wenyan h6 {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  min-width: 0;
+  height: auto;
+  overflow: visible;
+  text-indent: 0;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+}
+#wenyan p { text-align: left; margin: 1em 0; }
+#wenyan h2 { display: block; padding: 5px 10px; line-height: 1.6; }
+#wenyan h2 span { white-space: normal; word-wrap: break-word; }
+#wenyan ul, #wenyan ol {
+  box-sizing: border-box;
+  width: auto;
+  max-width: 100%;
+  margin: 1em 0;
+  padding: 0 0 0 24px;
+  list-style-position: outside;
+  overflow: visible;
+}
+#wenyan li { margin: 0.4em 0; padding: 0; }
+#wenyan li p { margin: 0.4em 0; }
+#wenyan li section {
+  box-sizing: border-box;
+  width: auto;
+  min-width: 0;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+#wenyan blockquote { margin: 1em 0; padding: 8px 12px; }
+#wenyan a, #wenyan p code, #wenyan li code, #wenyan blockquote code {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+#wenyan p code, #wenyan li code { margin: 0; padding: 1px 2px; }
+#wenyan pre {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 1em 0;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  overflow: visible;
+}
+#wenyan pre code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+#wenyan table { box-sizing: border-box; width: 100%; max-width: 100%; table-layout: fixed; }
+#wenyan table th, #wenyan table td { padding: 6px; word-break: break-all; white-space: normal; }
+#wenyan img { box-sizing: border-box; max-width: 100%; height: auto; }
+#wenyan #footnotes p { display: block; }
+#wenyan .footnote-num, #wenyan .footnote-txt { display: inline; width: auto; }

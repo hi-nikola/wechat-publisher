@@ -1,0 +1,274 @@
+/*
+ *     Typora Theme - Lapis    /    Author - YiNN
+ *     https://github.com/YiNNx/typora-theme-lapis
+ */
+
+:root {
+    --text-color: #40464f;
+    --primary-color: #4870ac;
+    --bg-color: #ffffff;
+    --marker-color: #a2b6d4;
+    --source-color: #a8a8a9;
+    --header-span-color: var(--primary-color);
+    --block-bg-color: #f6f8fa;
+}
+#wenyan {
+    line-height: 1.75;
+    font-size: 16px;
+}
+#wenyan p {
+    margin: 1em 0;
+}
+#wenyan strong {
+    color: var(--primary-color);
+}
+#wenyan a {
+    word-wrap: break-word;
+    color: var(--primary-color);
+}
+#wenyan h4,
+#wenyan h5,
+#wenyan h6 {
+    font-weight: normal;
+}
+#wenyan h1,
+#wenyan h2,
+#wenyan h3,
+#wenyan h4,
+#wenyan h5,
+#wenyan h6 {
+    padding: 0px;
+    color: var(--primary-color);
+    margin: 1.2em 0 1em;
+}
+#wenyan h1 {
+    text-align: center;
+}
+#wenyan h2 {
+    padding: 1px 12.5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+#wenyan h2,
+#wenyan h2 code {
+    background-color: var(--header-span-color);
+}
+#wenyan h2,
+#wenyan h2 a,
+#wenyan h2 code,
+#wenyan h2 strong {
+    color: var(--bg-color);
+}
+#wenyan h1 {
+    font-size: 1.5em;
+}
+#wenyan h2 {
+    font-size: 1.3em;
+}
+#wenyan h3 {
+    font-size: 1.3em;
+}
+#wenyan h4 {
+    font-size: 1.2em;
+}
+#wenyan h5 {
+    font-size: 1.2em;
+}
+#wenyan h6 {
+    font-size: 1.2em;
+}
+#wenyan > ul,
+#wenyan > ol {
+    padding-left: 1rem;
+}
+#wenyan ul,
+#wenyan ol {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+#wenyan ul {
+    list-style-type: disc;
+}
+#wenyan ul ul {
+    list-style-type: circle;
+}
+#wenyan ol {
+    list-style-type: decimal;
+}
+#wenyan em {
+    padding: 0 3px 0 0;
+}
+#wenyan blockquote {
+    display: block;
+    font-size: 0.9em;
+    border-left: 3px solid var(--primary-color);
+    padding: 0.5em 1em;
+    margin: 0;
+    background: var(--block-bg-color);
+    color: var(--text-color);
+}
+#wenyan p code {
+    color: var(--primary-color);
+    font-size: 0.9em;
+    font-weight: normal;
+    word-wrap: break-word;
+    padding: 2px 4px 2px;
+    border-radius: 3px;
+    margin: 2px;
+    background-color: var(--block-bg-color);
+    word-break: break-all;
+}
+#wenyan img {
+    max-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+#wenyan table {
+    display: table;
+    text-align: justify;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin: 1.4em auto;
+    max-width: 100%;
+    table-layout: fixed;
+    text-align: left;
+    overflow: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#wenyan table th,
+#wenyan table td {
+    border: 1px solid #d9dfe4;
+    padding: 9px 12px;
+    font-size: 0.75em;
+    line-height: 22px;
+    vertical-align: top;
+}
+#wenyan table th {
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-color);
+    background: #f7f7f7;
+}
+#wenyan hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #eef2f5;
+    border-radius: 2px;
+}
+#wenyan pre {
+    border-radius: 5px;
+    line-height: 2;
+    margin: 1em 0.5em;
+    padding: .5em;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 1px 5px;
+    font-size: 12px;
+}
+#wenyan pre code {
+    display: block;
+    overflow-x: auto;
+    margin: .5em;
+    padding: 0;
+}
+#wenyan .footnote {
+    color: var(--primary-color);
+}
+#wenyan #footnotes p {
+    display: flex;
+    margin: 0;
+    font-size: 0.9em;
+}
+#wenyan .footnote-num {
+    display: inline;
+    width: 10%;
+}
+#wenyan .footnote-txt {
+    display: inline;
+    width: 90%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/* Append to the COMPLETE upstream Lapis theme, before CSS inlining. */
+#wenyan {
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 8px;
+  margin: 0;
+  overflow: visible;
+  text-indent: 0;
+  letter-spacing: 0;
+}
+#wenyan p, #wenyan li, #wenyan blockquote,
+#wenyan h1, #wenyan h2, #wenyan h3, #wenyan h4, #wenyan h5, #wenyan h6 {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  min-width: 0;
+  height: auto;
+  overflow: visible;
+  text-indent: 0;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+}
+#wenyan p { text-align: left; margin: 1em 0; }
+#wenyan h2 { display: block; padding: 5px 10px; line-height: 1.6; }
+#wenyan h2 span { white-space: normal; word-wrap: break-word; }
+#wenyan ul, #wenyan ol {
+  box-sizing: border-box;
+  width: auto;
+  max-width: 100%;
+  margin: 1em 0;
+  padding: 0 0 0 24px;
+  list-style-position: outside;
+  overflow: visible;
+}
+#wenyan li { margin: 0.4em 0; padding: 0; }
+#wenyan li p { margin: 0.4em 0; }
+#wenyan li section {
+  box-sizing: border-box;
+  width: auto;
+  min-width: 0;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+#wenyan blockquote { margin: 1em 0; padding: 8px 12px; }
+#wenyan a, #wenyan p code, #wenyan li code, #wenyan blockquote code {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+#wenyan p code, #wenyan li code { margin: 0; padding: 1px 2px; }
+#wenyan pre {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 1em 0;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  overflow: visible;
+}
+#wenyan pre code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+#wenyan table { box-sizing: border-box; width: 100%; max-width: 100%; table-layout: fixed; }
+#wenyan table th, #wenyan table td { padding: 6px; word-break: break-all; white-space: normal; }
+#wenyan img { box-sizing: border-box; max-width: 100%; height: auto; }
+#wenyan #footnotes p { display: block; }
+#wenyan .footnote-num, #wenyan .footnote-txt { display: inline; width: auto; }
